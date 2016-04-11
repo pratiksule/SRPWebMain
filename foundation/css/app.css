@@ -535,13 +535,6 @@ nav.top-bar {
 	padding: 0px;
 	background: white;
 	top: -30px; 
-	border-style:solid;
-	border-color: red;
-	border-width:0px;
-	background-color: #EEEEEE;	
-	padding:15px;
-	border: 1px solid #EEEEEE; 
-	border-radius: 80px
 }
 
 .at-srp-item .service-heading {
@@ -561,58 +554,18 @@ nav.top-bar {
 }
 
 .at-srp-item .service-icon-box > img.service-icon {
-	width: 65px; 
+	width: 265px; 
+	height:100px;
 }
 
 .at-srp-item:hover {	
-	border: 1px solid #CCCCCC; 	
+	border: 1px solid #AAAAAA; 	
 	cursor: pointer;	
 }
 
 .at-srp-item:hover .service-heading {
 	color:#111111;
 }
-
-#at-srp-item-courses:hover > .service-icon-box {
-    background-color: #999999;
-}
-
-#at-srp-item-faculty:hover > .service-icon-box {
-    background-color: #999999;
-}
-
-#at-srp-item-students:hover > .service-icon-box {
-    background-color: #999999;
-}
-
-#at-srp-item-admissions:hover > .service-icon-box {
-    background-color: #999999;
-}
-
-/*
-.at-srp-item:hover .service-description {
-	color:rgb(0, 173, 183);
-}
-
-#at-srp-item-courses:hover > .service-icon-box #image-courses {
-	content: url('../../images/courses-hover.png');	
-}
-
-#at-srp-item-faculty:hover > .service-icon-box #image-faculty {
-	content:url('../../images/faculty-hover.png');	
-}
-
-#at-srp-item-students:hover > .service-icon-box #image-students {
-	content:url('../../images/students-hover.png');	
-}
-
-#at-srp-item-admissions:hover > .service-icon-box #image-admissions {
-	content:url('../../images/admissions-hover.png');	
-}
-
-#at-srp-item-culture:hover > .service-icon-box #image-culture {
-	content:url('../../images/culture-hover.png');	
-}*/
 
 /* ====== END REGION: At SRP ====== */
 

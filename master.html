@@ -116,8 +116,7 @@
             <div id="at-srp-items-container">
 	            <div id="at-srp-item-courses" class="at-srp-item">
 		            <div class="service-icon-box">
-		                <!--<img id="image-courses" src="images/courses.jpg" alt="" class="service-icon">-->
-						<img id="image-courses" src="images/courses.png" alt="" class="service-icon">
+		                <img id="image-courses" src="images/courses.jpg" alt="" class="service-icon">
 		            </div>
 		            <h4 class="service-heading">Courses</h4>
 		            <p class="service-description">
@@ -126,8 +125,7 @@
 		        </div>    
 		        <div id="at-srp-item-faculty" class="at-srp-item">
 		            <div class="service-icon-box">
-		                <!--<img id="image-faculty" src="images/faculty.jpg" alt="" class="service-icon">-->
-						<img id="image-faculty" src="images/faculty.png" alt="" class="service-icon">
+		                <img id="image-faculty" src="images/faculty.jpg" alt="" class="service-icon">
 		            </div>
 		            <h4 class="service-heading">Faculty</h4>
 		            <p class="service-description">
@@ -136,8 +134,7 @@
 		        </div>    
 		        <div id="at-srp-item-students" class="at-srp-item">
 		            <div class="service-icon-box">
-		                <!--<img id="image-students" src="images/image4.jpg" alt="" class="service-icon">-->
-						<img id="image-students" src="images/students.png" alt="" class="service-icon">
+		                <img id="image-students" src="images/students.jpg" alt="" class="service-icon">
 		            </div>
 		            <h4 class="service-heading">Students</h4>
 		            <p class="service-description">
@@ -146,8 +143,7 @@
 		        </div>    
 		        <div id="at-srp-item-admissions" class="at-srp-item">
 		            <div class="service-icon-box">
-		                <!--<img id="image-admissions" src="images/admission.jpg" alt="" class="service-icon">-->
-						<img id="image-admissions" src="images/admissions.png" alt="" class="service-icon">
+		                <img id="image-admissions" src="images/admissions.jpg" alt="" class="service-icon">
 		            </div>
 		            <h4 class="service-heading">Admissions</h4>
 		                <p class="service-description">
@@ -240,36 +236,6 @@
     <script src="foundation/js/vendor/jquery.js"></script>
     <script src="foundation/js/foundation/foundation.js"></script>
     <script src="foundation/js/foundation/foundation.orbit.js"></script>
-    <script src="foundation/js/foundation/foundation.reveal.js"></script>
-    <script>	    
-        
-		$(document).foundation();
-
-		$(document).ready(
-			function() {
-			    LoadAnnouncements();
-			}
-		);
-		
-	    // Loads the top 3 announcements...
-        function LoadAnnouncements(){
-		    $.ajax({
-			    type: "GET",
-    		    url: "xml/Announcements.xml",
-			    dataType: "xml",
-				success: function(xml){
-				    //alert("Yeppie !!! Able load the file...");
-					$(xml).find('announcement').each(function(){
-						var title = $(this).find('title').text();
-						//alert(title);
-					});
-			    },
-			    error: function(){
-				    //alert("Dang !!! Unable to load the file...");
-			    }	
-	    	});
-	    }
-		
-    </script>
+    <script src="foundation/js/foundation/foundation.reveal.js"></script>    
 </body>
 </html>
