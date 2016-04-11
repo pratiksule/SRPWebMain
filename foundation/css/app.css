@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Segoe UI", Verdana,'Georgia';
-	background-color:#333333;
+	background-color:white;
 }
 
 p {
@@ -23,7 +23,7 @@ ul {
 /* ======= START REGION: All Content Container ====== */
 
 #all-content-container{
-	background-color:#E8E8E8;
+	background-color:white;
 	max-width: 90em;
 	margin-left:auto;	
 	margin-right:auto;
@@ -34,16 +34,10 @@ ul {
 
 /* ======= START REGION: Header ====== */
 
-.header-row {
-	max-width: 90em;
-	margin-left:auto;	
-	margin-right:auto;	
-}
-
 .header-row .contacts-top-bar {
 	background-color: rgb(33, 210, 220);
 	height:28px;
-	max-width:90em;	
+	
 }
 
 .header-row .contacts-top-bar a {
@@ -72,7 +66,7 @@ ul {
 .header-row .header #catchline {
 	margin-left: 30px;
 	font-size: small;    
-	color: #519200;
+	color: #21D2DC;
 	text-align: center;
 }
 
@@ -87,31 +81,12 @@ nav.top-bar {
 }
 
 .navigation-bar-row {
-	max-width: 90em;
-	border-bottom-style:solid;
-	border-bottom-width: 5px;
-	border-bottom-color:#AAAAAA;	
-}
-
-.navigation-bar-row {
-	max-width: 90em;
 	margin-left:auto;	
-	margin-right:auto;	
+	margin-right:auto;		
 }
-
-/*.navigation-bar-row .top-bar1 {
-	background-color: #1F1F1F;
-	height:28px;
-	max-width:90em;	
-}*/
-
-/*.navigation-bar-row .top-bar1 a {
-	color: white;
-	font-size: 0.7em;	
-}*/
 
 .top-bar-section ul:hover{
-	color:red;
+	color: rgb(157, 250, 255);
 }
 
 .top-bar-section {
@@ -132,7 +107,7 @@ nav.top-bar {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-	background: red;
+	background: rgb(157, 250, 255);
 }
 
 /* ====== END REGION: Navigation Top Bar ====== */
@@ -423,12 +398,6 @@ nav.top-bar {
 	width:30%;	
 	height:350px;
 	background-color: #DAFCFF;	
-	/*border-left-style:solid;
-	border-left-width:3px;	
-	border-bottom-style:solid;
-	border-bottom-width:3px;
-	border-right-style:solid;
-	border-right-width:3px;*/
 	margin: 0 auto;
 	border-color:#737373;
 }
@@ -442,7 +411,7 @@ nav.top-bar {
 	padding-left:8px;
 	width:100%;	
 	height:29px;
-	background-color: rgb(18, 118, 123);		
+	background-color: rgb(33, 210, 220);		
 	margin: 0 auto;
 	color:white;
 	font-size:16px;
@@ -547,15 +516,15 @@ nav.top-bar {
 	margin:0%;
 	margin-left:auto;
 	margin-right:auto;
-	background: white;
+	background: white;	
 }
 
-.at-srp-item {
-	width: 20%;
+.at-srp-item {	
+	width: 25%;
 	height: 260px;    
 	text-align: center;
-	border: 0px solid white;    
-	border-color: white; 	
+	border: 1px solid white;    
+	border-color: white;
 }
 
 .at-srp-item .service-icon-box {
@@ -566,6 +535,13 @@ nav.top-bar {
 	padding: 0px;
 	background: white;
 	top: -30px; 
+	border-style:solid;
+	border-color: red;
+	border-width:0px;
+	background-color: #EEEEEE;	
+	padding:15px;
+	border: 1px solid #EEEEEE; 
+	border-radius: 80px
 }
 
 .at-srp-item .service-heading {
@@ -585,18 +561,35 @@ nav.top-bar {
 }
 
 .at-srp-item .service-icon-box > img.service-icon {
-	width: 80px; 
+	width: 65px; 
 }
 
-.at-srp-item:hover {
-	border: 1px solid #BBBBBB;    
+.at-srp-item:hover {	
+	border: 1px solid #CCCCCC; 	
 	cursor: pointer;	
 }
 
 .at-srp-item:hover .service-heading {
-	color:#222222;
+	color:#111111;
 }
 
+#at-srp-item-courses:hover > .service-icon-box {
+    background-color: #999999;
+}
+
+#at-srp-item-faculty:hover > .service-icon-box {
+    background-color: #999999;
+}
+
+#at-srp-item-students:hover > .service-icon-box {
+    background-color: #999999;
+}
+
+#at-srp-item-admissions:hover > .service-icon-box {
+    background-color: #999999;
+}
+
+/*
 .at-srp-item:hover .service-description {
 	color:rgb(0, 173, 183);
 }
@@ -619,7 +612,7 @@ nav.top-bar {
 
 #at-srp-item-culture:hover > .service-icon-box #image-culture {
 	content:url('../../images/culture-hover.png');	
-}
+}*/
 
 /* ====== END REGION: At SRP ====== */
 
@@ -717,6 +710,13 @@ blockquote, blockquote p {
 
 
 /* ====== START REGION: Footer ====== */
+
+#footer-container {	
+    width:100%;
+	background-color: #292c2f;
+	margin:0%;	
+	padding:0%;	
+}
 
 .footer {
 	background-color: #292c2f;

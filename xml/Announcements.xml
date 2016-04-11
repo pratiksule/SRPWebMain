@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <announcements>
-  <book category="cooking">
-    <title lang="en">Everyday Italian</title>
-    <author>Giada De Laurentiis</author>
-    <year>2005</year>
-    <price>30.00</price>
-  </book>
-  <book category="children">
-    <title lang="en">Harry Potter</title>
-    <author>J K. Rowling</author>
-    <year>2005</year>
-    <price>29.99</price>
-  </book>
-  <book category="web">
-    <title lang="en">Learning XML</title>
-    <author>Erik T. Ray</author>
-    <year>2003</year>
-    <price>39.95</price>
-  </book>
+  <announcement>
+    <title>Admission Forms are available</title>
+    <date>Mon Januray 24, 2016</date>
+    <description>This is a test to show admission forms.</description>   
+  </announcement>
+  <announcement>
+    <title>Change in syllabus for 12th Science</title>
+    <date>Tue February 2, 2016</date>
+    <description>This is a test to show syllabus updates.</description>
+  </announcement>
+  <announcement>
+    <title>Annual Function Agenda</title>
+    <date>Wed March 19, 2016</date>
+    <description>This is a test to show agendas.</description>
+  </announcement>
 </announcements>
