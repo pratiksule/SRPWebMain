@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foundation/css/normalize.css">
+    <link rel="stylesheet" href="foundation/css/foundation.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="foundation/css/app.css">
+    <script src="foundation/js/vendor/modernizr.js"></script>
+    <title>SRP College</title>
+</head>
+<body>
+
+    <!-- ====== START: Contacts Top Bar ====== -->
+    <div class="header-row">
+        <div class="contacts-top-bar">
+            <div class="small-3 medium-3 large-3 columns" >
+                <a href="#"><i class="fi-telephone"></i> Call : (022)-25515546</a>
+             </div>
+            <div style="text-align:right;">
+                <a href="#"><i class="fi-mail"></i> Email : contactsrp@gmail.com&nbsp;&nbsp;&nbsp;</a>
+            </div>
+        </div>
+        <div class="header">
+            <div class="small-12 medium-12 large-12 columns" id="college-name">
+                <i class="fi-book"></i> Swami Ramkrishna Paramhans Junior College
+            </div>
+            <div class="small-12 large-12 columns">
+                <p id="catchline" style="font-weight:bold;">"Nurturing Intellect Creating Personalities"</p>
+            </div>
+            <br/>
+        </div>
+    </div>
+    <!-- ====== END:  Contacts Top Bar ====== -->
+
+    <!-- ====== START: Navigation Bar ====== -->
+    <div class="navigation-bar-row">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Prospective Students</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+    <!-- ====== END: Navigation Bar ====== -->
+
+	  <!-- ====== START: Content ====== -->
+	  <div id="all-content-container">
+
+	      <br/><br/>
+
+	      <!-- ====== START: Announcements Main ====== -->
+        <div class="row" id="announcements-main-container">
+	   	      <div id="our-mission-header">
+	   	          &nbsp;&nbsp;<b>Announcements</b>
+	   	      </div>
+            <div id="announcements-main-container" class="large-12 columns bs-callout bs-callout-message">
+				        <div class="row">
+				            <div class="small-9 columns small-centered">
+                        <div id="announcements-main-alternate">
+                            <div id="announcements-main-alternate-placeholder">
+                                <img id="announcements-loading" src="images/ellipsis.gif" title="Loading..." alt="Loading...">
+                                <span id="announcements-none" style="display:none;">No Announcements to display...</span>
+                            </div>
+                        </div>
+				            </div>
+				        </div>
+            </div>
+	    </div>
+	    <!-- ====== END: Announcements Main ====== -->
+
+        <br/><br/>
+
+	</div>
+
+	<!-- ====== START: FOOTER ====== -->
+    <div id="footer-container">
+        <footer class="footer">
+            <div id="footer" class="row">
+                <div class="small-12 medium-6 large-5 columns">
+                    <p class="logo"><i class="fi-shield"></i><b>Swami Ramkrishna Paramhans Junior College</b></p>
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Blog</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <p class="copywrite">Copyrights KaKa Pri. Ltd. © 2015</p>
+                </div>
+                <div class="small-12 medium-6 large-4 columns">
+                    <ul class="contact">
+                        <li><p><i class="fi-marker"></i>Sriram Arcade, Opp. Govandi Post Office, Govandi (East), Mumbai 400088</p></li>
+                        <li><p><i class="fi-telephone"></i>750-683-7714</p></li>
+                        <li><p><i class="fi-mail"></i>contactsrp@gmail.com</p></li>
+                    </ul>
+                </div>
+                <div class="small-12 medium-12 large-3 columns">
+                    <p class="about">Join Us</p>
+                    <ul class="inline-list social">
+                        <a href="#"><i class="fi-social-facebook"></i></a>
+                        <a href="#"><i class="fi-social-twitter"></i></a>
+                        <a href="#"><i class="fi-social-linkedin"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- ====== END: FOOTER ====== -->
+
+	<!-- ====== END: Content ====== -->
+
+	<link rel="stylesheet" href="http://foundation3.zurb.com/docs/assets/normalize.css" />
+      <script src="http://foundation3.zurb.com/docs/assets/vendor/custom.modernizr.js"></script>
+      <script src="foundation/js/vendor/jquery.js"></script>
+      <script src="foundation/js/foundation/foundation.js"></script>
+      <script src="foundation/js/foundation/foundation.orbit.js"></script>
+      <script src="foundation/js/foundation/foundation.reveal.js"></script>
+      <script src="foundation/js/announcements.js"></script>
+      <script>
+		      $(document).foundation();
+          var announcements = new AnnouncementController();
+          announcements.DisplayAnnoucements();
+    </script>
+</body>
+</html>

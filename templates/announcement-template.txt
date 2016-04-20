@@ -1,0 +1,11 @@
+<article class="event">
+    <div class="event-date">
+        <p class="event-month">$month</p>
+        <p class="event-day">$date</p>
+    </div>
+    <div class="event-desc">
+        <h4 class="event-desc-header" id="announcements-child-header">$title</h4>
+        <p class="event-desc-detail" id="announcements-child-detail"><span class="event-desc-time"></span>$description</p>
+    </div>
+</article>
+<hr/>

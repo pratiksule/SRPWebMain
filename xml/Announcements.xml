@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <announcements>
-  <announcement>
-    <title>Admission Forms are available</title>
-    <date>Mon Januray 24, 2016</date>
-    <description>This is a test to show admission forms.</description>   
-  </announcement>
-  <announcement>
-    <title>Change in syllabus for 12th Science</title>
-    <date>Tue February 2, 2016</date>
-    <description>This is a test to show syllabus updates.</description>
-  </announcement>
-  <announcement>
-    <title>Annual Function Agenda</title>
-    <date>Wed March 19, 2016</date>
-    <description>This is a test to show agendas.</description>
-  </announcement>
+    <announcement>
+        <title>Admission Forms are available</title>
+        <date>24</date>
+        <month>Jan</month>
+        <year>2016</year>
+        <description>The school has chosen the 'design thinking' approach towards management education. All our efforts and manifestations as a result stem from the integration of design thinking into management education. We dream to create an environment conducive to experiential learning.</description>
+    </announcement>
+    <announcement>
+        <title>Change in syllabus for 12th Science</title>
+        <date>02</date>
+        <month>Feb</month>
+        <year>2016</year>
+        <description>We school has chosen the 'design thinking' approach towards management education. All our efforts and manifestations as a result stem from the integration of design thinking into management education. We dream to create an environment conducive to experiential learning.</description>
+    </announcement>
+    <announcement>
+        <title>Annual Function Agenda</title>
+        <date>21</date>
+        <month>Dec</month>
+        <year>2015</year>
+        <description>Annual Function agenda is displayed on notice board. Please view and make arrangements accordingly.</description>
+    </announcement>
 </announcements>
