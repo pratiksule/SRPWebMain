@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
         <div class="contacts-top-bar">
             <div class="small-3 medium-3 large-3 columns" >
                 <a href="#"><i class="fi-telephone"></i> Call : (022)-25515546</a>
-             </div>
+            </div>
             <div style="text-align:right;">
                 <a href="#"><i class="fi-mail"></i> Email : contactsrp@gmail.com&nbsp;&nbsp;&nbsp;</a>
             </div>
@@ -52,36 +52,37 @@
     </div>
     <!-- ====== END: Navigation Bar ====== -->
 
-	  <!-- ====== START: Content ====== -->
-	  <div id="all-content-container">
+    <!-- ====== START: Content ====== -->
+    <div id="all-content-container">
 
-	      <br/><br/>
+        <br/><br/>
 
-	      <!-- ====== START: Announcements Main ====== -->
+        <!-- ====== START: Announcements Main ====== -->
         <div class="row" id="announcements-main-container">
-	   	      <div id="our-mission-header">
-	   	          &nbsp;&nbsp;<b>Announcements</b>
-	   	      </div>
+            <div id="our-mission-header">
+                &nbsp;&nbsp;<b>Announcements</b>
+            </div>
             <div id="announcements-main-container" class="large-12 columns bs-callout bs-callout-message">
-				        <div class="row">
-				            <div class="small-9 columns small-centered">
+                <div class="row">
+                    <div class="small-9 columns small-centered">
                         <div id="announcements-main-alternate">
                             <div id="announcements-main-alternate-placeholder">
                                 <img id="announcements-loading" src="images/ellipsis.gif" title="Loading..." alt="Loading...">
                                 <span id="announcements-none" style="display:none;">No Announcements to display...</span>
                             </div>
                         </div>
-				            </div>
-				        </div>
+                    </div>
+                </div>
             </div>
-	    </div>
-	    <!-- ====== END: Announcements Main ====== -->
+        </div>
+        <!-- ====== END: Announcements Main ====== -->
 
         <br/><br/>
 
-	</div>
+    </div>
+    <!-- ====== END: Content ====== -->
 
-	<!-- ====== START: FOOTER ====== -->
+    <!-- ====== START: FOOTER ====== -->
     <div id="footer-container">
         <footer class="footer">
             <div id="footer" class="row">
@@ -115,19 +116,17 @@
     </div>
     <!-- ====== END: FOOTER ====== -->
 
-	<!-- ====== END: Content ====== -->
-
-	<link rel="stylesheet" href="http://foundation3.zurb.com/docs/assets/normalize.css" />
-      <script src="http://foundation3.zurb.com/docs/assets/vendor/custom.modernizr.js"></script>
-      <script src="foundation/js/vendor/jquery.js"></script>
-      <script src="foundation/js/foundation/foundation.js"></script>
-      <script src="foundation/js/foundation/foundation.orbit.js"></script>
-      <script src="foundation/js/foundation/foundation.reveal.js"></script>
-      <script src="foundation/js/announcements.js"></script>
-      <script>
-		      $(document).foundation();
-          var announcements = new AnnouncementController();
-          announcements.DisplayAnnoucements();
+    <link rel="stylesheet" href="http://foundation3.zurb.com/docs/assets/normalize.css" />
+    <script src="http://foundation3.zurb.com/docs/assets/vendor/custom.modernizr.js"></script>
+    <script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/foundation/foundation.js"></script>
+    <script src="foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="foundation/js/announcements.js"></script>
+    <script>
+    $(document).foundation();
+    var announcements = new AnnouncementController();
+    announcements.DisplayAnnoucements();
     </script>
 </body>
 </html>
