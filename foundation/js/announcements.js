@@ -1,19 +1,19 @@
 /**
- * @file Manages all operations related to announcements.
- */
+* @file Manages all operations related to announcements.
+*/
 
 /**
- * Represents Announcement Controller class that can be used
- * to perform differnt operations related to announcements.
- * @class
- */
+* Represents Announcement Controller class that can be used
+* to perform differnt operations related to announcements.
+* @class
+*/
 var AnnouncementController = function() {
 
     /**
-     * Fetches announcements from repository & displays announcements
-     * @function
-     * @param count
-     */
+    * Fetches announcements from repository & displays announcements
+    * @function
+    * @param count
+    */
     this.DisplayAnnoucements = function(count) {
         var self = this;
         var xml = '';
@@ -33,18 +33,18 @@ var AnnouncementController = function() {
     };
 
     /**
-     * Fetches the annocunement template file.
-     * Realizes the conversion of announcement template to actual announcement
-     * @function
-     * @param xml
-     * @param count
-     */
+    * Fetches the annocunement template file.
+    * Realizes the conversion of announcement template to actual announcement
+    * @function
+    * @param xml
+    * @param count
+    */
     this.AnnouncementRealizar = function(xml, count) {
         var self = this;
         var announcementsResult='';
         var announcementsCount = $(xml).find('announcement').length;
         if(count != null){
-           announcementsCount = count;
+            announcementsCount = count;
         }
         if(count == 0) {
             self.ShowAnnouncements(announcementsResult);
@@ -71,11 +71,11 @@ var AnnouncementController = function() {
     };
 
     /**
-     * Attaches the announcement result obtained from repository
-     * to the Announcements DOM.
-     * @function
-     * @param announcements
-     */
+    * Attaches the announcement result obtained from repository
+    * to the Announcements DOM.
+    * @function
+    * @param announcements
+    */
     this.ShowAnnouncements = function(announcements) {
         // Displaying the announcements
         $('#announcements-main-alternate').fadeOut(100, function(){
