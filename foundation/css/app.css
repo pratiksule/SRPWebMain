@@ -395,7 +395,7 @@ nav.top-bar {
 
 /* ============ START REGION: Announcements ============ */
 
-#announcements {
+.announcements {
     float:left;
     width:30%;
     height:350px;
@@ -404,25 +404,29 @@ nav.top-bar {
     border-color:#737373;
 }
 
-#announcemnts-container{
+.announcemnts-container{
     margin:20px 20px 20px 20px;
 }
 
-#announcements-header {
-    max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#777777;
-    line-height:36px;
-    border-bottom-style:solid;
-    border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+.announcements-header {
+    /*position: relative;*/
+    padding-left:8px;
+    width:100%;
+    height:29px;
+    background-color: rgb(33, 210, 220);
+    margin: 0 auto;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    line-height:29px;
+    border-width:0px;
+    border-style:solid;
+    border-color:#565656;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
-#announcements-footer {
+.announcements-footer {
     /*position: relative;*/
     width:100%;
     height:30px;
@@ -674,6 +678,20 @@ blockquote, blockquote p {
     border-bottom-style:solid;
     border-bottom-width: 5px;
     border-bottom-color:white;
+}
+
+#announcements-main-header{
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#777777;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
 }
 
 .event {
