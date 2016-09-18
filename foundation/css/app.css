@@ -4,7 +4,6 @@ body {
     font-family: "Segoe UI", Verdana,'Georgia';
     background-color:white;
     height:100%;
-
 }
 
 p {
@@ -18,6 +17,7 @@ ul {
 .row {
     max-width: 90em;
 }
+
 
 /* ====== END REGION: Global Block ====== */
 
@@ -48,7 +48,6 @@ ul {
 }
 
 .header-row .header {
-    /*background-color: #395D81;*/
     background-color:white;
     height: 100px;
 }
@@ -270,7 +269,6 @@ nav.top-bar {
     position: absolute;
     top: 40%;
     margin-top: -25px;
-    /*background-color: rgba(57, 93, 129, 0.71);*/
     background-color: rgba(0, 0, 0, 0.4);
     width: 50px;
     height: 60px;
@@ -409,7 +407,6 @@ nav.top-bar {
 }
 
 .announcements-header {
-    /*position: relative;*/
     padding-left:8px;
     width:100%;
     height:29px;
@@ -427,7 +424,6 @@ nav.top-bar {
 }
 
 .announcements-footer {
-    /*position: relative;*/
     width:100%;
     height:30px;
     background-color: #DAFCFF;
@@ -671,7 +667,7 @@ blockquote, blockquote p {
 /* ====== END REGION: Our Mission ====== */
 
 
-/* ====== Content for Announcements Main (START) (Announcements.html) ====== */
+/* ====== Content for Announcements Main (START) (announcements.html) ====== */
 
 #announcements-main-container{
     background-color:white;
@@ -790,7 +786,147 @@ blockquote, blockquote p {
     height:120px;
 }
 
-/* ====== Content for Announcements Main (End) (Announcements.html) ====== */
+/* ====== Content for Announcements Main (End) (announcements.html) ====== */
+
+
+/* ====== Content for Courses Main (START) (courses.html) ====== */
+
+#courses-main-header{
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#777777;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
+}
+
+.move-right .inner-wrap {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+#courses-container {
+    max-width: 90em;
+    padding: 0;
+    font-size: 14px;
+    border-style: solid;
+    border-color:blue;
+    border-width: 0px;
+}
+
+#courses-main-container {
+    max-width: 90em;
+    background-color:white;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:white;
+}
+
+#courses-description-container {
+    padding: 0;
+    margin-left:0px;
+    font-size: 14px;
+    border-style: solid;
+    border-color:red;
+    border-width: 0px;
+}
+
+#courses-image {
+    width: 400px;
+    height:200px;
+    padding: 0;
+    margin:0;
+    float: left;
+}
+
+#courses-image img {
+    width: 350px;
+    height:200px;
+}
+
+#courses-description-header {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#courses-description {
+    font-size: 14px;
+    color: #444444;
+}
+
+#courses-description-container a {
+    font-size: 15px;
+}
+
+/* ====== Content for Courses Main (END) (courses.html) ====== */
+
+
+/* ====== Content for Course Science, Commerce, Arts (START) (science.html, commerce.html, arts.html) ====== */
+
+#course-main-header{
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#444444;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
+}
+
+#course-main-container {
+    max-width: 90em;
+    background-color:white;
+    color:#444444;
+    border-style:solid;
+    border-width: 0px;
+    border-color:red;
+}
+
+#course-main-container p {
+    font-size: 14px;
+}
+
+#course-main-container a {
+    font-size: 15px;
+}
+
+#course-description-container {
+    padding: 0;
+    margin-left:0px;
+    font-size: 12px;
+    border-style: solid;
+    border-color:red;
+    border-width: 0px;
+}
+
+#subjects-table thead tr th{
+    background-color: rgb(33, 210, 220);
+    color: white;
+    font-size: 14px;
+}
+
+#subjects-table tbody tr td{
+    font-size: 13px;
+}
+
+#subjects-table-header {
+    color:#444444;
+}
+
+/* ====== Content for Course Science, Commerce, Arts (END) (science.html, commerce.html, arts.html) ====== */
 
 
 /* ====== START REGION: Footer ====== */
