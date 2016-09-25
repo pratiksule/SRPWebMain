@@ -36,24 +36,23 @@ ul {
 
 /* ======= START REGION: Header ====== */
 
-.header-row .contacts-top-bar {
-    background-color: rgb(33, 210, 220);
-    height:28px;
-
+.header-row .place-holder-top-bar {
+    background-color: rgb(57, 233, 243);
+    height:18px;
 }
 
-.header-row .contacts-top-bar a {
+.header-row .place-holder-top-bar a {
     color: white;
     font-size: 0.7em;
 }
 
 .header-row .header {
-    background-color:white;
-    height: 100px;
+    background-color:rgb(57, 233, 243);
+    height: 75px;
 }
 
 .header-row .header #college-name {
-    color: #666666;
+    color: white;
     margin-top: 0px;
     margin-left: 30px;
     font-size: xx-large;
@@ -61,13 +60,6 @@ ul {
     padding: 0px;
     padding-top: 12px;
     font-family: sans-serif;
-    text-align: center;
-}
-
-.header-row .header #catchline {
-    margin-left: 30px;
-    font-size: small;
-    color: #21D2DC;
     text-align: center;
 }
 
@@ -108,7 +100,8 @@ nav.top-bar {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: rgb(157, 250, 255);
+    color: white;
+    background: rgb(57, 233, 243)
 }
 
 /* ====== END REGION: Navigation Top Bar ====== */
