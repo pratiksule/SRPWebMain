@@ -114,9 +114,10 @@
     <script src="foundation/js/foundation/foundation.reveal.js"></script>
     <script src="foundation/js/announcements.js"></script>
     <script>
-    $(document).foundation();
-    var announcements = new AnnouncementController();
-    announcements.DisplayAnnoucements();
+        $(document).foundation();
+        $("#all-content-container").show();
+        var announcements = new AnnouncementController();
+        announcements.DisplayAnnoucements();
     </script>
 </body>
 </html>

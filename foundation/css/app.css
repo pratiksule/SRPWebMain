@@ -29,6 +29,7 @@ ul {
     max-width: 90em;
     margin-left:auto;
     margin-right:auto;
+    display:none;
 }
 
 /* ====== END REGION: All Content Container ====== */
@@ -962,7 +963,8 @@ blockquote, blockquote p {
     background-color: #292c2f;
     margin:0%;
     padding:0%;
-    position: absolute;
+    position : absolute;
+    display:none;
 }
 
 .footer {
