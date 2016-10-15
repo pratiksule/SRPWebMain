@@ -718,7 +718,7 @@ blockquote, blockquote p {
 
 .event-date .event-month {
     margin: 0;
-    background: #676767;
+    background: rgb(33, 210, 220);
     padding: 0.3rem 0.8rem;
     text-align: center;
     color:white;
@@ -727,7 +727,7 @@ blockquote, blockquote p {
 
 .event-date .event-day {
     margin: 0;
-    border: 1px solid #ccc;
+    border: 1px solid #DDDDDD;
     padding: 0.2rem 2rem;
     text-align: center;
     font-size: 0.9rem;
