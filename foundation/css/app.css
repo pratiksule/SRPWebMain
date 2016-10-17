@@ -1060,9 +1060,6 @@ blockquote, blockquote p {
     padding: 0;
     margin-left:0px;
     font-size: 14px;
-    border-style: solid;
-    border-color:red;
-    border-width: 0px;
 }
 
 #aboutus-srp-image {
@@ -1072,7 +1069,7 @@ blockquote, blockquote p {
     margin-left:auto;
     padding:auto;
     border-style: solid;
-    border-color:rgb(33, 210, 220);;
+    border-color:rgb(33, 210, 220);
     border-width: 3px;
 }
 
@@ -1100,6 +1097,9 @@ blockquote, blockquote p {
     overflow:hidden;
     height:280px;
     width:380px;
+    border-style: solid;
+    border-color:rgb(33, 210, 220);
+    border-width: 2px;
 }
 
 #aboutus-google-map-container-canvas {
