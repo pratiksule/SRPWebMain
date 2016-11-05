@@ -464,7 +464,7 @@ nav.top-bar {
 
 .announcements-item a {
     font-size:12px;
-    color:#2ba6cb;
+    color:#21d2dc;
 }
 
 .announcements-item .button{
@@ -727,10 +727,11 @@ blockquote, blockquote p {
 
 .event-date .event-day {
     margin: 0;
-    border: 1px solid #DDDDDD;
+    border: 0px solid #DDDDDD;
     padding: 0.2rem 2rem;
     text-align: center;
     font-size: 0.9rem;
+    background: #EEEEEE;
     color: #555555;
 }
 
@@ -954,6 +955,144 @@ blockquote, blockquote p {
 }
 
 /* ====== Content for Course Science, Commerce, Arts (END) (science.html, commerce.html, arts.html) ====== */
+
+
+/* ====== Content for Students (START) (students.html) ====== */
+
+#students-main-container {
+    max-width: 90em;
+    background-color:white;
+    color:#444444;
+    border-style:solid;
+    border-width: 0px;
+    border-color:red;
+}
+
+#students-main-container p {
+    font-size: 14px;
+}
+
+#students-main-header{
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#444444;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
+}
+
+.inner-wrap {
+    width: auto;
+}
+
+.move-right .inner-wrap {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin-left: 2em;
+}
+
+.move-right .exit-off-canvas {
+    display: none; }
+
+
+ #student-facilities-container-description p {
+    font-size: 13px;
+}
+
+#student-facilities-container {
+    margin:0px;
+}
+
+#student-facilities-container-description #student-facilities-description-header {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#student-facilities-container img {
+    width:400px;
+    height:250px;
+}
+
+/* ====== Content for Students (END) (students.html) ====== */
+
+
+/* ====== Content for Admissions (START) (admissions.html) ====== */
+
+#admissions-main-container {
+    max-width: 90em;
+    background-color:white;
+    color:#444444;
+    border-style:solid;
+    border-width: 0px;
+    border-color:red;
+}
+
+#admissions-main-container p {
+    font-size: 14px;
+}
+
+#admissions-main-header{
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#444444;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
+}
+
+.inner-wrap {
+    width: auto;
+}
+
+.move-right .inner-wrap {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin-left: 2em;
+}
+
+.move-right .exit-off-canvas {
+    display: none; }
+
+
+ #admissions-container-description p {
+    font-size: 13px;
+}
+
+#admissions-container {
+    margin:0px;
+}
+
+#admissions-container-description #admissions-description-header {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#admissions-container-description .button{
+    padding: 9px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+/* ====== Content for Admissions (END) (admissions.html) ====== */
+
 
 /* ====== Content for About Us Main (START) (aboutus.html) ====== */
 
