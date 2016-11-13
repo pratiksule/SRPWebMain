@@ -48,59 +48,21 @@
 
         <br/><br/>
 
-        <!-- ====== START: Courses Main ====== -->
-        <div class="row" id="courses-main-container">
-            <div id="courses-main-header">
-                &nbsp;&nbsp;<b>Courses</b>
+        <!-- ====== START: Announcements Main ====== -->
+        <div class="row" id="faculty-main-container">
+            <div id="faculty-main-header">
+                &nbsp;&nbsp;<b>Faculty</b>
             </div>
-            <div id="courses-main-container" class="large-12 columns bs-callout bs-callout-message">
-                <div class="off-canvas-wrap move-right" data-offcanvas>
-
-                    <br/>
-
-                    <div id="courses-container" class="row ad-block">
-                        <div id="courses-image">
-                            <img src="images/science.jpg" alt="" />
-                        </div>
-                        <div id="courses-description-container">
-                            <br/><p id="courses-description-header">Science</p><br/>
-                            <p id="courses-description">Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.</p>
-                            <br/>
-                            <a href="courses/science.html" class="button">Details</a>
-                        </div>
+            <div id="faculty-main-container" class="large-12 columns bs-callout bs-callout-message">
+                <div id="faculty-main-alternate">
+                    <div id="faculty-main-alternate-placeholder">
+                        <img id="faculty-loading" src="images/ellipsis.gif" title="Loading..." alt="Loading...">
+                        <span id="faculty-none" style="display:none;">No faculty members to display...</span>
                     </div>
-
-                    <br/><br/><br/>
-
-                    <div id="courses-container" class="row ad-block">
-                        <div id="courses-image">
-                            <img src="images/commerce.jpg" alt="" />
-                        </div>
-                        <div id="courses-description-container">
-                            <br/><p id="courses-description-header">Commerce</p><br/>
-                            <p id="courses-description">Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.</p>
-                            <br/>
-                            <a href="courses/commerce.html" class="button">Details</a>
-                        </div>
-                    </div>
-
-                    <br/><br/><br/>
-
-                    <div id="courses-container" class="row ad-block">
-                        <div id="courses-image">
-                            <img src="images/arts.jpg" alt="" />
-                        </div>
-                        <div id="courses-description-container">
-                            <br/><p id="courses-description-header">Arts</p><br/>
-                            <p id="courses-description">Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.</p>
-                            <br/>
-                            <a href="courses/arts.html" class="button">Details</a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
+
         <!-- ====== END: Courses Main ====== -->
 
         <br/><br/>
@@ -148,11 +110,13 @@
     <script src="foundation/js/foundation/foundation.js"></script>
     <script src="foundation/js/foundation/foundation.orbit.js"></script>
     <script src="foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="foundation/js/faculty.js"></script>
     <script>
         $( document ).ready(function() {
-            $("#navigation-item-courses").css("background-color","#39e9f3");
-            $("#all-content-container").fadeIn(250);
-            $("#footer-container").fadeIn(250);
+            $("#all-content-container").show();
+            $("#footer-container").show();
+            var faculty = new FacultyController();
+            faculty.DisplayFacultyMembers();
         });
     </script>
 </body>

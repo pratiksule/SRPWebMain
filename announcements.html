@@ -32,10 +32,11 @@
             </ul>
             <section class="top-bar-section">
                 <ul>
-                    <li><a href="master.html">Home</a></li>
-                    <li><a href="students.html">Students</a></li>
-                    <li><a href="admissions.html">Admissions</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a id="navigation-item-home" href="master.html">Home</a></li>
+                    <li><a id="navigation-item-courses" href="courses.html">Courses</a></li>
+                    <li><a id="navigation-item-students" href="students.html">Students</a></li>
+                    <li><a id="navigation-item-admissions" href="admissions.html">Admissions</a></li>
+                    <li><a id="navigation-item-aboutus" href="aboutus.html">About Us</a></li>
                 </ul>
             </section>
         </nav>
@@ -114,10 +115,12 @@
     <script src="foundation/js/foundation/foundation.reveal.js"></script>
     <script src="foundation/js/announcements.js"></script>
     <script>
-        $(document).foundation();
-        $("#all-content-container").show();
-        var announcements = new AnnouncementController();
-        announcements.DisplayAnnoucements();
+        $(document).ready(function() {
+            $("#all-content-container").show();
+            $("#footer-container").show();
+            var announcements = new AnnouncementController();
+            announcements.DisplayAnnoucements();
+        });
     </script>
 </body>
 </html>

@@ -1254,6 +1254,125 @@ blockquote, blockquote p {
 /* ====== Content for About Us Main (END) (aboutus.html) ====== */
 
 
+/* ====== Content for Faculty Main (START) (faculty.html) ====== */
+
+#faculty-main-container {
+    background-color:white;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:white;
+}
+
+#faculty-main-header{
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#444444;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
+}
+
+#faculty-main-alternate {
+    height:45rem;
+    line-height: 45rem;
+    background-color:white;
+    width:100%;
+}
+
+#faculty-main-alternate-placeholder {
+    width:120px;
+    padding-top:0;
+    margin: auto;
+}
+
+#faculty-loading {
+    width:120px;
+    height:120px;
+}
+
+
+#faculty-none {
+    color: #21D2DC;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#faculty-main-container .profile-card-container {
+    float: left;
+}
+
+#faculty-main-container .profile-card {
+  padding: 1.5rem;
+  /*border-style:solid;
+  border-width: 5px;
+  border-color:#eeeeee;*/
+  margin: 1.0rem 0;
+  background-color: #e4e4e4;
+}
+
+.profile-card img {
+    /*border-style:solid;
+    border-width: 5px;
+    border-color:#d8d8d8;*/
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    /*box-shadow: 10px 10px 5px #bbbbbb;*/
+}
+
+.profile-card .profile-info {
+    padding: 0rem;
+}
+
+.profile-card .profile-info .profile-name {
+    margin-top: 0;
+    text-align: center;
+    color:#555555;
+    font-style: normal;
+    font-weight: bold;
+    font-size:17px;
+    font-family: "Segoe UI", Verdana,'Georgia';
+}
+
+.profile-card .profile-info .profile-title {
+    margin-top: 5px;
+    text-align: center;
+    color:#555555;
+    font-size:13px;
+    font-style: normal;
+    font-family: "Segoe UI", Verdana,'Georgia';
+}
+
+.profile-card .profile-info .profile-details-button {
+    margin-top: 12px;
+    text-align: center;
+    color:#555555;
+    font-size:14px;
+    font-style: normal;
+    font-family: "Segoe UI", Verdana,'Georgia';
+}
+
+.profile-card .profile-info .profile-details-button .button {
+    padding: 9px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.profile-card .profile-info p {
+    text-align: center;
+}
+
+/* ====== Content for Faculty Main (END) (faculty.html) ====== */
+
+
 /* ====== START REGION: Footer ====== */
 
 #footer-container {

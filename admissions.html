@@ -33,10 +33,11 @@
             </ul>
             <section class="top-bar-section">
                 <ul>
-                    <li><a href="master.html">Home</a></li>
-                    <li><a href="students.html">Students</a></li>
-                    <li><a href="admissions.html">Admissions</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a id="navigation-item-home" href="master.html">Home</a></li>
+                    <li><a id="navigation-item-courses" href="courses.html">Courses</a></li>
+                    <li><a id="navigation-item-students" href="students.html">Students</a></li>
+                    <li><a id="navigation-item-admissions" href="admissions.html">Admissions</a></li>
+                    <li><a id="navigation-item-aboutus" href="aboutus.html">About Us</a></li>
                 </ul>
             </section>
         </nav>
@@ -166,9 +167,11 @@
     <script src="foundation/js/foundation/foundation.reveal.js"></script>
     <script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.1915971,73.20093459999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("aboutus-google-map-container-canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.1915971, 73.20093459999998)});infowindow = new google.maps.InfoWindow({content:"<b>Sriram Arcade, Opp. Govandi Post Office, Govandi (East), Mumbai 400088</b><br/>2880 Broadway<br/> Mumbai" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});}google.maps.event.addDomListener(window, 'load', init_map);</script>
     <script>
-    $(document).foundation();
-    $("#all-content-container").fadeIn(250);
-    $("#footer-container").fadeIn(250);
+        $(document).ready(function() {
+            $("#navigation-item-admissions").css("background-color","#39e9f3");
+            $("#all-content-container").fadeIn(250);
+            $("#footer-container").fadeIn(250);
+        });
     </script>
 </body>
 </html>

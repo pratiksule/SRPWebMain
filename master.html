@@ -8,6 +8,7 @@
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="foundation/css/app.css">
     <script src="foundation/js/vendor/modernizr.js"></script>
+    <script type="text/javascript"></script>
     <title>SRP College</title>
 </head>
 <body>
@@ -32,10 +33,11 @@
             </ul>
             <section class="top-bar-section">
                 <ul>
-                    <li id="x"><a href="master.html">Home</a></li>
-                    <li><a href="students.html">Students</a></li>
-                    <li><a href="admissions.html">Admissions</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a id="navigation-item-home" href="master.html">Home</a></li>
+                    <li><a id="navigation-item-courses" href="courses.html">Courses</a></li>
+                    <li><a id="navigation-item-students" href="students.html">Students</a></li>
+                    <li><a id="navigation-item-admissions" href="admissions.html">Admissions</a></li>
+                    <li><a id="navigation-item-aboutus" href="aboutus.html">About Us</a></li>
                 </ul>
             </section>
         </nav>
@@ -52,19 +54,19 @@
                     <li data-orbit-slide="headline-1">
                         <img src="images/image1.jpg" alt="Smiley face" width:"65em"  height:"350px"/>
                         <div class="orbit-caption">
-                            To learn more about SRJP culture, <u><a href="">click here</a></u>
+                            To learn more about SRJP culture, <u><a href="students.html">click here</a></u>
                         </div>
                     </li>
                     <li data-orbit-slide="headline-2">
                         <img src="images/Image2.jpg" alt="Smiley face" width:"65em" height:"350px"/>
                         <div class="orbit-caption">
-                            To learn more about SRJP culture, <u><a href="">click here</a></u>
+                            To learn more about SRJP culture, <u><a href="students.html">click here</a></u>
                         </div>
                     </li>
                     <li data-orbit-slide="headline-3">
                         <img src="images/image3.jpg" alt="Smiley face" width:"65em" height:"350px"/>
                         <div class="orbit-caption">
-                            To learn more about SRJP culture, <u><a href="">click here</a></u>
+                            To learn more about SRJP culture, <u><a href="students.html">click here</a></u>
                         </div>
                     </li>
                 </ul>
@@ -114,7 +116,7 @@
                         Here you’ll find detailed information about all of the programs offered by SRP Junior College at every level, including descriptions of related courses.
                     </p>
                 </div>
-                <div id="at-srp-item-faculty" class="at-srp-item">
+                <div  onclick="location.href='faculty.html';" id="at-srp-item-faculty" class="at-srp-item">
                     <div class="service-icon-box">
                         <img id="image-faculty" src="images/faculty.jpg" alt="" class="service-icon">
                     </div>
@@ -219,9 +221,12 @@
     <script src="foundation/js/foundation/foundation.orbit.js"></script>
     <script src="foundation/js/foundation/foundation.reveal.js"></script>
     <script>
-        $(document).foundation();
-        $("#all-content-container").fadeIn(250);
-        $("#footer-container").fadeIn(250);
+        $( document ).ready(function() {
+            $("#navigation-item-home").css("background-color","#39e9f3");
+            $(document).foundation();
+            $("#all-content-container").fadeIn(250);
+            $("#footer-container").fadeIn(250);
+        });
     </script>
 </body>
 </html>
