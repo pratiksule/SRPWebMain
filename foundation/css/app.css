@@ -1295,7 +1295,6 @@ blockquote, blockquote p {
     height:120px;
 }
 
-
 #faculty-none {
     color: #21D2DC;
     font-style: italic;
@@ -1309,23 +1308,16 @@ blockquote, blockquote p {
 
 #faculty-main-container .profile-card {
   padding: 1.5rem;
-  /*border-style:solid;
-  border-width: 5px;
-  border-color:#eeeeee;*/
   margin: 1.0rem 0;
   background-color: #e4e4e4;
 }
 
 .profile-card img {
-    /*border-style:solid;
-    border-width: 5px;
-    border-color:#d8d8d8;*/
     width: 10rem;
     height: 10rem;
     display: block;
     margin: 1rem auto;
     text-align: center;
-    /*box-shadow: 10px 10px 5px #bbbbbb;*/
 }
 
 .profile-card .profile-info {
@@ -1370,7 +1362,160 @@ blockquote, blockquote p {
     text-align: center;
 }
 
+#faculty-link-back-to-home a {
+    font-size: 13px;
+    padding:12px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
 /* ====== Content for Faculty Main (END) (faculty.html) ====== */
+
+
+/* ====== Content for Faculty Profile Main (START) (faculty-profile.html) ====== */
+
+#faculty-profile-main-container {
+    background-color:white;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:white;
+    width:100%;
+}
+
+#faculty-profile-main-header {
+    max-width: 90em;
+    margin-left:auto;
+    margin-right:auto;
+    height:36px;
+    font-size:19px;
+    background:white;
+    color:#444444;
+    line-height:36px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:rgb(33, 210, 220);
+}
+
+#faculty-profile-container {
+    max-width: 90em;
+    max-height: 100%;
+}
+
+#faculty-profile-main-alternate {
+    height:45rem;
+    line-height: 45rem;
+    background-color:white;
+    width:100%;
+}
+
+#faculty-profile-main-alternate-placeholder {
+    width:120px;
+    padding-top:0;
+    margin: auto;
+}
+
+#faculty-profile-loading {
+    width:120px;
+    height:120px;
+}
+
+#faculty-profile-none {
+    color: #21D2DC;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#faculty-profile-template {
+    line-height: normal;
+}
+
+#faculty-profile-overview-container {
+    padding-top: 1rem;
+    padding-bottom: 0px;
+    background: white;
+    overflow: hidden;
+    min-height:20rem;
+    width: 100%;
+}
+
+#faculty-profile-image-container {
+    align:center;
+    float:center;
+    width: 18rem;
+    margin-left: 0rem;
+}
+
+#faculty-profile-image-container img {
+    width: 16rem;
+    height: 16rem;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    -webkit-box-shadow: 0 14px 8px -2px #afafaf;
+    -moz-box-shadow: 0 14px 8px -2px #afafaf;
+    box-shadow: 0 14px 8px -2px #afafaf;
+    float:right;
+}
+
+#faculty-profile-overview {
+    align:center;
+    float:left;
+    display: block;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+#faculty-profile-overview-details {
+    text-align: left;
+    padding: 4rem;
+}
+
+#faculty-profile-name{
+    font-size: 30px;
+    font-weight: bold;
+    color: #21d2dc;
+}
+
+#faculty-profile-designation{
+    font-size: 17px;
+    font-weight: bold;
+    color: #5d5d5d;
+}
+
+#faculty-profile-email{
+    font-size: 17px;
+    font-weight: bold;
+    color: #888888;
+}
+
+#faculty-profile-email span{
+    margin-left: 0.5em;
+}
+
+#faculty-profile-work-and-education {
+    width: 100%;
+    color: #333333;
+}
+
+#faculty-profile-work-and-education p {
+    color: #4a4a4a;
+    font-size: 13px;
+}
+
+#faculty-profile-work-and-education ul {
+    color: #4a4a4a;
+    font-size: 13px;
+}
+
+#faculty-profile-link-back-to-faculty a {
+    font-size: 13px;
+    padding:12px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/* ====== Content for Faculty Profile Main (END) (faculty-profile.html) ====== */
 
 
 /* ====== START REGION: Footer ====== */
@@ -1389,7 +1534,6 @@ blockquote, blockquote p {
     padding: 4rem;
     margin-bottom: 0em;
     font-size:13px;
-
 }
 
 .footer .inline-list {

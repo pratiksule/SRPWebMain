@@ -10,11 +10,24 @@
 var FacultyController = function() {
 
     /**
+    * Entry point wrapper function to display faculty members.
+    * @function
+    */
+    this.DisplayFaculty = function() {
+        // Workflow:
+        // 1. Fetch faculty members.
+        // 2. Fetch profile display template and realize with faculty details.
+        // 3. Render html on page.
+        var self = this;
+        self.FetchFaculty();
+    };
+
+    /**
     * Fetches faculty members from repository & displays them
     * @function
     * @param count
     */
-    this.DisplayFacultyMembers = function() {
+    this.FetchFaculty = function() {
         var self = this;
         var xml = '';
         // Fetch Faculty Members
@@ -23,11 +36,11 @@ var FacultyController = function() {
             url: "xml/faculty.xml",
             dataType: "xml",
             success: function(xml){
-                self.FacultyProfileDisplayRealizar(xml);
+                self.RealizeFacultyProfiles(xml);
             },
             error: function(xhr, textStatus, errorThrown) {
                 console.log("Error occured while fetching faculty: \n"+xhr.responseText);
-                self.FacultyProfileDisplayRealizar(xml);
+                self.RealizeFacultyProfiles(xml);
             }
         });
     };
@@ -36,12 +49,12 @@ var FacultyController = function() {
     * Fetches the faculty-display template file.
     * Fills the faculty-display template with faculty member details.
     * @function
-    * @param xml
+    * @param facultyMembersXML
     */
-    this.FacultyProfileDisplayRealizar = function(xml) {
+    this.RealizeFacultyProfiles = function(facultyMembersXML) {
         var self = this;
         var facultyMemebersResult='';
-        var facultyMemeberCount = $(xml).find('profile').length;
+        var facultyMemeberCount = $(facultyMembersXML).find('profile').length;
         // Get the template for faculty ...
         $.ajax({
             type: "GET",
@@ -50,14 +63,19 @@ var FacultyController = function() {
                 var temp='';
                 for (i = 0; i < facultyMemeberCount; i++) {
                     temp = templateText;
-                    var node = $(xml).find('profile').eq(i);
-                    facultyMemebersResult += temp.replace("$name",node.find("name").text()).replace("$title",node.find("title").text()).replace("$image",node.find("image").text())
+                    // Have to use javascript's getElementsByTagName instead of .find(key).text() because text method only returns
+                    // the nodes text value as opposed to inner html.
+                    var node = facultyMembersXML.getElementsByTagName("profile")[i];
+                    facultyMemebersResult += temp.replace("$name",node.getElementsByTagName("name")[0].innerHTML)
+                                                 .replace("$designation",node.getElementsByTagName("designation")[0].innerHTML)
+                                                 .replace("$photo",node.getElementsByTagName("photo")[0].innerHTML)
+                                                 .replace("$profileID",i);
                 }
-                self.ShowFacultyMembers(facultyMemebersResult);
+                self.ShowFaculty(facultyMemebersResult);
             },
             error: function(xhr, textStatus, errorThrown) {
                 console.log("Error occured while fetching faculty-display template: \n"+xhr.responseText);
-                self.ShowFacultyMembers(facultyMemebersResult);
+                self.ShowFaculty(facultyMemebersResult);
             }
         });
 
@@ -69,7 +87,7 @@ var FacultyController = function() {
     * @function
     * @param facultyMembers
     */
-    this.ShowFacultyMembers = function(facultyMembers) {
+    this.ShowFaculty = function(facultyMembers) {
         // Displaying the faculty members
         $('#faculty-main-alternate').fadeOut(100, function(){
             $('#faculty-main-alternate-placeholder').hide();

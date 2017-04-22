@@ -2,47 +2,290 @@
 <faculty>
     <profile>
         <name>Pratik Sule</name>
-        <title>Software Developer</title>
-        <image>images/faculty/psule.jpg</image>
+        <designation>Software Developer</designation>
+        <email>pratiksule@srp.edu</email>
+        <photo>images/faculty/psule.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Complex Software Systems</li>
+                    <li>Large Scale Continuous Integration</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Krishna Nigalye</name>
-        <title>Software Developer</title>
-        <image>images/faculty/kpn.jpg</image>
+        <designation>Software Developer</designation>
+        <email>krishnanigalye@srp.edu</email>
+        <photo>images/faculty/kpn.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Internet Programming</li>
+                    <li>Responsive Web Application Design</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Pratik Sule</name>
-        <title>Software Developer</title>
-        <image>images/faculty/psule.jpg</image>
+        <designation>Software Developer</designation>
+        <email>pratiksule@srp.edu</email>
+        <photo>images/faculty/psule.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Complex Software Systems</li>
+                    <li>Large Scale Continuous Integration</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Krishna Nigalye</name>
-        <title>Software Developer</title>
-        <image>images/faculty/kpn.jpg</image>
+        <designation>Software Developer</designation>
+        <email>krishnanigalye@srp.edu</email>
+        <photo>images/faculty/kpn.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Internet Programming</li>
+                    <li>Responsive Web Application Design</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Pratik Sule</name>
-        <title>Software Developer</title>
-        <image>images/faculty/kpn.jpg</image>
+        <designation>Software Developer</designation>
+        <email>pratiksule@srp.edu</email>
+        <photo>images/faculty/kpn.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Complex Software Systems</li>
+                    <li>Large Scale Continuous Integration</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Krishna Nigalye</name>
-        <title>Software Developer</title>
-        <image>images/faculty/kpn.jpg</image>
+        <designation>Software Developer</designation>
+        <email>krishnanigalye@srp.edu</email>
+        <photo>images/faculty/kpn.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Internet Programming</li>
+                    <li>Responsive Web Application Design</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Pratik Sule</name>
-        <title>Software Developer</title>
-        <image>images/faculty/psule.jpg</image>
+        <designation>Software Developer</designation>
+        <email>pratiksule@srp.edu</email>
+        <photo>images/faculty/psule.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Complex Software Systems</li>
+                    <li>Large Scale Continuous Integration</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Krishna Nigalye</name>
-        <title>Software Developer</title>
-        <image>images/faculty/kpn.jpg</image>
+        <designation>Software Developer</designation>
+        <email>krishnanigalye@srp.edu</email>
+        <photo>images/faculty/kpn.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Internet Programming</li>
+                    <li>Responsive Web Application Design</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
     <profile>
         <name>Pratik Sule</name>
-        <title>Software Developer</title>
-        <image>images/faculty/kpn.jpg</image>
+        <designation>Software Developer</designation>
+        <email>pratiksule@srp.edu</email>
+        <photo>images/faculty/psule.jpg</photo>
+        <description>
+            <p><b>Degree(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Master of Science, Computer Engineering - Syracuse University</li>
+                    <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                </ul>
+                <br/>
+            </p>
+            <p><b>Teaching Interest(s):</b></p><br/>
+            <p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Design Patterns</li>
+                    <li>Complex Software Systems</li>
+                    <li>Large Scale Continuous Integration</li>
+                </ul>
+            </p><br/>
+            <p><b>Current Work:</b></p><br/>
+            <p>
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+            </p>
+        </description>
     </profile>
 </faculty>

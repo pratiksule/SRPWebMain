@@ -1,0 +1,53 @@
+<div id="faculty-profile-template">
+    <div class="row">
+        <div id="faculty-profile-overview-container">
+            <div id="faculty-profile-image-container" class="small-12 large-4 columns">
+                <img src="$photo" alt="profile image">
+            </div>
+            <div id="faculty-profile-overview" class="small-12 large-8 columns">
+                <div id="faculty-profile-overview-details" class="small-12 large-8 columns">
+                    <div id="faculty-profile-name">
+                        $name
+                    </div>
+                    <div id="faculty-profile-designation">
+                        $designation
+                    </div>
+                    <div id="faculty-profile-email">
+                        <p><i class="fi-mail"></i><span>$email</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="row">
+        <div id="faculty-profile-work-and-education-container">
+            <div id="faculty-profile-work-and-education" class="small-12 large-4 columns">
+                <p><b>Degree(s):</b></p><br/>
+                <p>
+                    <ul>
+                        <li>Master of Science, Computer Engineering - Syracuse University</li>
+                        <li>Bachelor of Engineering, Computer Engineering - University of Mumbai</li>
+                    </ul>
+                    </br>
+                </p>
+                <p><b>Teaching Interest(s):</b></p><br/>
+                <p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Design Patterns</li>
+                        <li>Complex Software Systems</li>
+                        <li>Large Scale Continuous Integration</li>
+                    </ul>
+                </p></br>
+                <p><b>Current Work:</b></p><br/>
+                <p>
+                    Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                    Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                    Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                    Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

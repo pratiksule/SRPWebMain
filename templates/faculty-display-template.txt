@@ -1,10 +1,10 @@
 <div style="float:left;" id="profile-card-containter" class="medium-3 columns">
     <div class="profile-card">
-        <img src="$image">
+        <img src="$photo">
         <div class="profile-info">
             <p class="profile-name">$name</p>
-            <p class="profile-title">$title</p>
-            <p class="profile-details-button"><a href="#" class="button">View Profile</a></p>
+            <p class="profile-title">$designation</p>
+            <p class="profile-details-button"><a id="view-profile-button" href="faculty-profile.html?id=$profileID" class="button">View Profile</a></p>
         </div>
     </div>
 </div>

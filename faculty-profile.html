@@ -48,25 +48,25 @@
 
         <br/><br/>
 
-        <!-- ====== START: Faculty Main ====== -->
-        <div class="row" id="faculty-main-container">
-            <div id="faculty-main-header">
-                &nbsp;&nbsp;<b>Faculty</b>
+        <!-- ====== START: Faculty-Profile Main ====== -->
+        <div class="row" id="faculty-profile-main-container">
+            <div id="faculty-profile-main-header">
+                &nbsp;&nbsp;<b>Faculty Profile</b>
             </div>
-            <div id="faculty-main-container" class="large-12 columns bs-callout bs-callout-message">
-                <div id="faculty-main-alternate">
-                    <div id="faculty-main-alternate-placeholder">
-                        <img id="faculty-loading" src="images/ellipsis.gif" title="Loading..." alt="Loading...">
-                        <span id="faculty-none" style="display:none;">No faculty members to display...</span>
+            <div id="faculty-profile-main-container" class="large-12 columns bs-callout bs-callout-message">
+                <div id="faculty-profile-main-alternate">
+                    <div id="faculty-profile-main-alternate-placeholder">
+                        <img id="faculty-profile-loading" src="images/ellipsis.gif" title="Loading..." alt="Loading..." />
+                        <span id="faculty-profile-none" style="display:none;">Faculty profile unavailable...</span>
                     </div>
                 </div>
             </div>
         </div>
         <hr/>
-        <div id="faculty-link-back-to-home">
-            <a href="master.html" class="button">Back To Home</a>
+        <div id="faculty-profile-link-back-to-faculty">
+            <a href="faculty.html" class="button">Back To Faculty</a>
         </div>
-        <!-- ====== END: Faculty Main ====== -->
+        <!-- ====== END: Faculty-Profile Main ====== -->
 
         <br/><br/>
 
@@ -113,15 +113,15 @@
     <script src="foundation/js/foundation/foundation.js"></script>
     <script src="foundation/js/foundation/foundation.orbit.js"></script>
     <script src="foundation/js/foundation/foundation.reveal.js"></script>
-    <script src="foundation/js/faculty.js"></script>
+    <script src="foundation/js/faculty-profile.js"></script>
     <script>
         $( document ).ready(function() {
             $("#all-content-container").show();
             $("#footer-container").show();
-            var faculty = new FacultyController();
-            faculty.DisplayFaculty();
+            var id = parent.document.URL.substring(parent.document.URL.indexOf('=') + 1, parent.document.URL.length);
+            var faculty = new FacultyProfileController(id);
+            faculty.DisplayFacultyProfile();
         });
-
     </script>
 </body>
 </html>
