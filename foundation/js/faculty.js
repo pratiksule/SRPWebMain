@@ -33,7 +33,7 @@ var FacultyController = function() {
         // Fetch Faculty Members
         $.ajax({
             type: "GET",
-            url: "xml/faculty.xml",
+            url: "models/faculty.xml",
             dataType: "xml",
             success: function(xml){
                 self.RealizeFacultyProfiles(xml);
