@@ -3,7 +3,7 @@
 body {
     font-family: "Segoe UI", Verdana,'Georgia';
     background-color:white;
-    height:100%;
+    height: 100%;
 }
 
 p {
@@ -25,11 +25,11 @@ ul {
 /* ======= START REGION: All Content Container ====== */
 
 #all-content-container{
-    background-color:white;
+    background-color: white;
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
 /* ====== END REGION: All Content Container ====== */
@@ -39,7 +39,7 @@ ul {
 
 .header-row .place-holder-top-bar {
     background-color: rgb(57, 233, 243);
-    height:18px;
+    height: 18px;
 }
 
 .header-row .place-holder-top-bar a {
@@ -48,7 +48,7 @@ ul {
 }
 
 .header-row .header {
-    background-color:rgb(57, 233, 243);
+    background-color: rgb(57, 233, 243);
     height: 75px;
 }
 
@@ -75,8 +75,8 @@ nav.top-bar {
 }
 
 .navigation-bar-row {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .top-bar-section ul:hover{
@@ -92,8 +92,8 @@ nav.top-bar {
 
 .top-bar-section ul li > a {
     font-size: 0.8em;
-    font-weight:bold;
-    color:white;
+    font-weight: bold;
+    color: white;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -111,18 +111,17 @@ nav.top-bar {
 /* ====== START REGION: Pictures & Announcements ====== */
 
 #pictures-and-announcements-row{
-    border-bottom-style:solid;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:#AAAAAA;
+    border-bottom-color: #AAAAAA;
 }
 
 /* ============ START REGION: SlideShow ============ */
 
 .slideshow-row {
-    float:left;
-    /*position: relative;*/
-    width:70%;
-    height:350px;
+    float: left;
+    width: 70%;
+    height: 350px;
     background-color: #333333;
 }
 
@@ -153,10 +152,10 @@ nav.top-bar {
 
 .orbit-container {
     overflow: hidden;
-    max-width:65em;
+    max-width: 65em;
     position: relative;
     background: black;
-    height:350px;
+    height: 350px;
 
 }
 
@@ -166,15 +165,15 @@ nav.top-bar {
     padding: 0;
     position: relative;
     background: #333333;
-    border-color:red;
-    height:350px;
-    max-width:80em;
+    border-color: red;
+    height: 350px;
+    max-width: 80em;
 }
 
 .orbit-container .orbit-slides-container img {
     display: block;
     width: 100%;
-    height:350px;
+    height: 350px;
 }
 
 .orbit-container .orbit-slides-container > * {
@@ -182,8 +181,8 @@ nav.top-bar {
     top: 0;
     width: 100%;
     margin-left: 100%;
-    height:350px;
-    max-width:65em;
+    height: 350px;
+    max-width: 65em;
 }
 
 .orbit-container .orbit-slides-container > *:first-child {
@@ -208,7 +207,7 @@ nav.top-bar {
     color: black;
     background: rgba(0, 0, 0, 0);
     z-index: 10;
-    display:none;
+    display: none;
 }
 
 .orbit-container .orbit-slide-number span {
@@ -230,7 +229,7 @@ nav.top-bar {
     background-color: rgba(0, 0, 0, 0.6);
     display: block;
     width: 0%;
-    display:none;
+    display: none;
 }
 
 .orbit-container .orbit-timer > span {
@@ -334,7 +333,7 @@ nav.top-bar {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
     cursor: pointer;
-    hidden:true;
+    hidden: true;
 }
 
 .orbit-bullets li.active {
@@ -388,27 +387,27 @@ nav.top-bar {
 /* ============ START REGION: Announcements ============ */
 
 #announcements-home {
-    float:left;
-    width:30%;
-    height:350px;
+    float: left;
+    width: 30%;
+    height: 350px;
     background-color: white;
     margin: 0 auto;
-    border-color:#737373;
+    border-color: #737373;
 }
 
 #announcements-home-container {
-    margin:20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 #announcements-home-item-main-alternate {
-    height:280px;
-    line-height:280px;
+    height: 280px;
+    line-height: 280px;
 }
 
 #announcements-home-item-main-alternate-placeholder {
     margin: auto;
-    align:center;
-    height:280px;
+    align: center;
+    height: 280px;
 }
 
 #announcements-home-item-loading {
@@ -418,82 +417,82 @@ nav.top-bar {
 }
 
 #announcements-home-item-loading-container {
-    height:280px;
-    align:center;
-    width:90px;
-    margin:auto;
+    height: 280px;
+    align: center;
+    width: 90px;
+    margin: auto;
 }
 
 #announcements-home-item-none {
-    height:280px;
-    width:100%;
+    height: 280px;
+    width: 100%;
     color: #21D2DC;
     font-style: italic;
     font-weight: bold;
     font-size: 1rem;
-    text-align:center;
+    text-align: center;
 }
 
 #announcements-home-header {
-    padding-left:8px;
-    width:100%;
-    height:29px;
+    padding-left: 8px;
+    width: 100%;
+    height: 29px;
     background-color: white;
     margin: 0 auto;
-    color:#444444;
-    font-size:16px;
-    font-weight:bold;
-    line-height:29px;
-    border-bottom-width:3px;
-    border-bottom-style:solid;
-    border-bottom-color:rgb(33, 210, 220);
-    margin-top:10px;
-    margin-bottom:10px;
+    color: #444444;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 29px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(33, 210, 220);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #announcements-home-footer {
-    width:100%;
-    height:30px;
+    width: 100%;
+    height: 30px;
     background-color: white;
     margin: 0 auto;
-    color:rgb(18, 118, 123);
-    font-size:16px;
-    font-weight:bold;
-    line-height:40px;
-    font-size:12px;
-    text-align:center;
-    border-width:0px;
-    border-style:solid;
-    border-color:#565656;
+    color: rgb(18, 118, 123);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #565656;
 }
 
 #announcements-home-item {
-    padding:5px;
-    width:100%;
+    padding: 5px;
+    width: 100%;
     height: 83px;
     background-color: white;
-    border-top-width:0px;
-    border-top-style:solid;
-    border-color:#AAAAAA;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-color: #AAAAAA;
     margin: 0 auto;
-    border-bottom-width:1px;
-    border-bottom-style:solid;
-    border-bottom-color:#dddddd;
-    margin-bottom:0px;
-    font-size:12px;
-    color:#555555;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #555555;
 }
 
 #announcements-home-item-title {
-    font-size:12px;
-    padding-bottom:5px;
-    color:#555555;
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #555555;
 }
 
 #announcements-home-item-date {
-    font-size:12px;
-    padding-bottom:5px;
-    color:rgb(33, 210, 220);;
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: rgb(33, 210, 220);
 }
 
 #announcements-home-item a {
@@ -502,7 +501,7 @@ nav.top-bar {
 }
 
 #announcements-home-footer .button{
-    font-size:12px;
+    font-size: 12px;
     padding: 6px;
     margin-top: 9px;
 }
@@ -516,46 +515,46 @@ nav.top-bar {
 
 #at-srp-container {
     max-width: 90em;
-    border-bottom-style:solid;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     background: white;
-    border-bottom-color:white;
+    border-bottom-color: white;
 }
 
 #at-srp-container-header {
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    margin-bottom:50px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    margin-bottom: 50px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 #at-srp-items-container {
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    height:265px;
-    position:relative;
-    margin:2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 265px;
+    position: relative;
+    margin: 2%;
     background: white;
 }
 
 #at-srp-items-container #at-srp-item-courses, #at-srp-item-faculty, #at-srp-item-students, #at-srp-item-admissions, #at-srp-item-culture {
-    float:left;
-    display:block;
-    margin:0%;
-    margin-left:auto;
-    margin-right:auto;
+    float: left;
+    display: block;
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
     background: white;
 }
 
@@ -581,20 +580,20 @@ nav.top-bar {
     position: relative;
     top: 80px;
     top: 0px;
-    color:#444444;
+    color: #444444;
     top: -15px;
 }
 
 .at-srp-item .service-description {
     width: 80%;
-    font-size:13px;
+    font-size: 13px;
     margin: 0 auto;
     color: #444444;
 }
 
 .at-srp-item .service-icon-box > img.service-icon {
     width: 265px;
-    height:100px;
+    height: 100px;
 }
 
 .at-srp-item:hover {
@@ -603,7 +602,7 @@ nav.top-bar {
 }
 
 .at-srp-item:hover .service-heading {
-    color:#111111;
+    color: #111111;
 }
 
 #at-srp-items-container #at-srp-item-courses:hover, #at-srp-item-faculty:hover, #at-srp-item-students:hover, #at-srp-item-admissions:hover, #at-srp-item-culture:hover {
@@ -616,33 +615,33 @@ nav.top-bar {
 /* ====== START REGION: Our Mission ====== */
 
 #our-mission-container{
-    background-color:white;
-    border-bottom-style:solid;
+    background-color: white;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:white;
+    border-bottom-color: white;
 }
 
 #our-mission-header {
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 #our-mission-description {
-    font-size:13px;
-    color:#444444;
+    font-size: 13px;
+    color: #444444;
 }
 
 #our-mission-quote{
-    font-size:13px;
+    font-size: 13px;
 }
 
 .bs-callout {
@@ -713,24 +712,24 @@ blockquote, blockquote p {
 /* ====== Content for Announcements Main (START) (announcements.html) ====== */
 
 #announcements-main-container{
-    background-color:white;
-    border-bottom-style:solid;
+    background-color: white;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:white;
+    border-bottom-color: white;
 }
 
 #announcements-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 .event {
@@ -750,7 +749,7 @@ blockquote, blockquote p {
     background: rgb(33, 210, 220);
     padding: 0.3rem 0.8rem;
     text-align: center;
-    color:white;
+    color: white;
     font-size: 0.9rem;
 }
 
@@ -807,15 +806,15 @@ blockquote, blockquote p {
 }
 
 #announcements-main-alternate{
-    height:45rem;
+    height: 45rem;
     line-height: 45rem;
-    background-color:white;
-    width:100%;
+    background-color: white;
+    width: 100%;
 }
 
 #announcements-main-alternate-placeholder {
-    width:120px;
-    padding-top:0;
+    width: 120px;
+    padding-top: 0;
     margin: auto;
 }
 
@@ -827,8 +826,8 @@ blockquote, blockquote p {
 }
 
 #announcements-loading{
-    width:120px;
-    height:120px;
+    width: 120px;
+    height: 120px;
 }
 
 /* ====== Content for Announcements Main (End) (announcements.html) ====== */
@@ -838,16 +837,16 @@ blockquote, blockquote p {
 
 #courses-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 .move-right .inner-wrap {
@@ -864,38 +863,38 @@ blockquote, blockquote p {
     padding: 0;
     font-size: 14px;
     border-style: solid;
-    border-color:blue;
+    border-color: blue;
     border-width: 0px;
 }
 
 #courses-main-container {
     max-width: 90em;
-    background-color:white;
-    border-bottom-style:solid;
+    background-color: white;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:white;
+    border-bottom-color: white;
 }
 
 #courses-description-container {
     padding: 0;
-    margin-left:0px;
+    margin-left: 0px;
     font-size: 14px;
     border-style: solid;
-    border-color:red;
+    border-color: red;
     border-width: 0px;
 }
 
 #courses-image {
     width: 400px;
-    height:200px;
+    height: 200px;
     padding: 0;
-    margin:0;
+    margin: 0;
     float: left;
 }
 
 #courses-image img {
     width: 350px;
-    height:200px;
+    height: 200px;
 }
 
 #courses-description-header {
@@ -925,25 +924,25 @@ blockquote, blockquote p {
 
 #course-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 #course-main-container {
     max-width: 90em;
-    background-color:white;
-    color:#444444;
-    border-style:solid;
+    background-color: white;
+    color: #444444;
+    border-style: solid;
     border-width: 0px;
-    border-color:red;
+    border-color: red;
 }
 
 #course-main-container p {
@@ -962,10 +961,10 @@ blockquote, blockquote p {
 
 #course-description-container {
     padding: 0;
-    margin-left:0px;
+    margin-left: 0px;
     font-size: 12px;
     border-style: solid;
-    border-color:red;
+    border-color: red;
     border-width: 0px;
 }
 
@@ -980,7 +979,7 @@ blockquote, blockquote p {
 }
 
 #subjects-table-header {
-    color:#444444;
+    color: #444444;
 }
 
 /* ====== Content for Course Science, Commerce, Arts (END) (science.html, commerce.html, arts.html) ====== */
@@ -990,11 +989,11 @@ blockquote, blockquote p {
 
 #students-main-container {
     max-width: 90em;
-    background-color:white;
-    color:#444444;
+    background-color: white;
+    color: #444444;
     border-style:solid;
     border-width: 0px;
-    border-color:red;
+    border-color: red;
 }
 
 #students-main-container p {
@@ -1003,16 +1002,16 @@ blockquote, blockquote p {
 
 #students-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 .inner-wrap {
@@ -1030,15 +1029,15 @@ blockquote, blockquote p {
 }
 
 .move-right .exit-off-canvas {
-    display: none; }
+    display: none;
+}
 
-
- #student-facilities-container-description p {
+#student-facilities-container-description p {
     font-size: 13px;
 }
 
 #student-facilities-container {
-    margin:0px;
+    margin: 0px;
 }
 
 #student-facilities-container-description #student-facilities-description-header {
@@ -1047,8 +1046,8 @@ blockquote, blockquote p {
 }
 
 #student-facilities-container img {
-    width:400px;
-    height:250px;
+    width: 400px;
+    height: 250px;
 }
 
 /* ====== Content for Students (END) (students.html) ====== */
@@ -1058,11 +1057,11 @@ blockquote, blockquote p {
 
 #admissions-main-container {
     max-width: 90em;
-    background-color:white;
-    color:#444444;
-    border-style:solid;
+    background-color: white;
+    color: #444444;
+    border-style: solid;
     border-width: 0px;
-    border-color:red;
+    border-color: red;
 }
 
 #admissions-main-container p {
@@ -1071,16 +1070,16 @@ blockquote, blockquote p {
 
 #admissions-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 .inner-wrap {
@@ -1098,15 +1097,15 @@ blockquote, blockquote p {
 }
 
 .move-right .exit-off-canvas {
-    display: none; }
+    display: none;
+}
 
-
- #admissions-container-description p {
+#admissions-container-description p {
     font-size: 13px;
 }
 
 #admissions-container {
-    margin:0px;
+    margin: 0px;
 }
 
 #admissions-container-description #admissions-description-header {
@@ -1127,16 +1126,16 @@ blockquote, blockquote p {
 
 #aboutus-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 .move-right .inner-wrap {
@@ -1169,45 +1168,45 @@ blockquote, blockquote p {
 #aboutus-main-container {
     max-width: 90em;
     margin: 0;
-    background-color:white;
-    border-bottom-style:solid;
+    background-color: white;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:white;
-    display:block;
+    border-bottom-color: white;
+    display: block;
 }
 
 #aboutus-main-info-container {
     max-width: 90em;
     margin: 0;
-    background-color:white;
-    display:block;
+    background-color: white;
+    display: block;
 }
 
 #aboutus-general-info-main-container {
     max-width: 90em;
     margin: 0;
-    background-color:white;
-    display:block;
+    background-color: white;
+    display: block;
 }
 
 #aboutus-srp-info-main-container {
     max-width: 90em;
     margin: 0;
-    background-color:#f5f4f4;
-    display:block;
+    background-color: #f5f4f4;
+    display: block;
 }
 
 #aboutus-srp-info-image-main-container {
     max-width: 90em;
     margin: 0;
-    background-color:#f5f4f4;
-    display:block;
+    background-color: #f5f4f4;
+    display: block;
 }
 
 #aboutus-srp-info-container {
     max-width: 90em;
     margin: 0;
-    background-color:#f5f4f4;
+    background-color: #f5f4f4;
     text-align: center;
 }
 
@@ -1219,25 +1218,25 @@ blockquote, blockquote p {
 #aboutus-srp-info-image-container {
     width: 300px;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 14px;
 }
 
 #aboutus-description-container {
     padding: 0;
-    margin-left:0px;
+    margin-left: 0px;
     font-size: 14px;
 }
 
 #aboutus-srp-image {
     width: 300px;
-    height:400px;
+    height: 400px;
     padding: 0;
-    margin-left:auto;
-    padding:auto;
+    margin-left: auto;
+    padding: auto;
     border-style: solid;
-    border-color:rgb(33, 210, 220);
+    border-color: rgb(33, 210, 220);
     border-width: 3px;
 }
 
@@ -1262,22 +1261,22 @@ blockquote, blockquote p {
 }
 
 #aboutus-google-map-container {
-    overflow:hidden;
-    height:280px;
-    width:380px;
+    overflow: hidden;
+    height: 280px;
+    width: 380px;
     border-style: solid;
-    border-color:rgb(33, 210, 220);
+    border-color: rgb(33, 210, 220);
     border-width: 2px;
 }
 
 #aboutus-google-map-container-canvas {
-    height:280px;
-    width:380px;
+    height: 280px;
+    width: 380px;
 }
 
 #aboutus-google-map-container-canvas img {
-    max-width:none!important;
-    background:none!important;
+    max-width: none!important;
+    background: none!important;
 }
 
 /* ====== Content for About Us Main (END) (aboutus.html) ====== */
@@ -1286,42 +1285,42 @@ blockquote, blockquote p {
 /* ====== Content for Faculty Main (START) (faculty.html) ====== */
 
 #faculty-main-container {
-    background-color:white;
-    border-bottom-style:solid;
+    background-color: white;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:white;
+    border-bottom-color: white;
 }
 
 #faculty-main-header{
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 #faculty-main-alternate {
-    height:45rem;
+    height: 45rem;
     line-height: 45rem;
-    background-color:white;
-    width:100%;
+    background-color: white;
+    width: 100%;
 }
 
 #faculty-main-alternate-placeholder {
-    width:120px;
-    padding-top:0;
+    width: 120px;
+    padding-top: 0;
     margin: auto;
 }
 
 #faculty-loading {
-    width:120px;
-    height:120px;
+    width: 120px;
+    height: 120px;
 }
 
 #faculty-none {
@@ -1359,15 +1358,15 @@ blockquote, blockquote p {
     color:#555555;
     font-style: normal;
     font-weight: bold;
-    font-size:17px;
+    font-size: 17px;
     font-family: "Segoe UI", Verdana,'Georgia';
 }
 
 .profile-card .profile-info .profile-title {
     margin-top: 5px;
     text-align: center;
-    color:#555555;
-    font-size:13px;
+    color: #555555;
+    font-size: 13px;
     font-style: normal;
     font-family: "Segoe UI", Verdana,'Georgia';
 }
@@ -1375,8 +1374,8 @@ blockquote, blockquote p {
 .profile-card .profile-info .profile-details-button {
     margin-top: 12px;
     text-align: center;
-    color:#555555;
-    font-size:14px;
+    color: #555555;
+    font-size: 14px;
     font-style: normal;
     font-family: "Segoe UI", Verdana,'Georgia';
 }
@@ -1393,7 +1392,7 @@ blockquote, blockquote p {
 
 #faculty-link-back-to-home a {
     font-size: 13px;
-    padding:12px;
+    padding: 12px;
     margin-top: 1rem;
     margin-left: 2rem;
 }
@@ -1404,25 +1403,25 @@ blockquote, blockquote p {
 /* ====== Content for Faculty Profile Main (START) (faculty-profile.html) ====== */
 
 #faculty-profile-main-container {
-    background-color:white;
-    border-bottom-style:solid;
+    background-color: white;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:white;
-    width:100%;
+    border-bottom-color: white;
+    width: 100%;
 }
 
 #faculty-profile-main-header {
     max-width: 90em;
-    margin-left:auto;
-    margin-right:auto;
-    height:36px;
-    font-size:19px;
-    background:white;
-    color:#444444;
-    line-height:36px;
-    border-bottom-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    font-size: 19px;
+    background: white;
+    color: #444444;
+    line-height: 36px;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:rgb(33, 210, 220);
+    border-bottom-color: rgb(33, 210, 220);
 }
 
 #faculty-profile-container {
@@ -1431,21 +1430,21 @@ blockquote, blockquote p {
 }
 
 #faculty-profile-main-alternate {
-    height:45rem;
+    height: 45rem;
     line-height: 45rem;
-    background-color:white;
-    width:100%;
+    background-color: white;
+    width: 100%;
 }
 
 #faculty-profile-main-alternate-placeholder {
-    width:120px;
-    padding-top:0;
+    width: 120px;
+    padding-top: 0;
     margin: auto;
 }
 
 #faculty-profile-loading {
-    width:120px;
-    height:120px;
+    width: 120px;
+    height: 120px;
 }
 
 #faculty-profile-none {
@@ -1464,13 +1463,13 @@ blockquote, blockquote p {
     padding-bottom: 0px;
     background: white;
     overflow: hidden;
-    min-height:20rem;
+    min-height: 20rem;
     width: 100%;
 }
 
 #faculty-profile-image-container {
-    align:center;
-    float:center;
+    align: center;
+    float: center;
     width: 18rem;
     margin-left: 0rem;
 }
@@ -1484,12 +1483,12 @@ blockquote, blockquote p {
     -webkit-box-shadow: 0 14px 8px -2px #afafaf;
     -moz-box-shadow: 0 14px 8px -2px #afafaf;
     box-shadow: 0 14px 8px -2px #afafaf;
-    float:right;
+    float: right;
 }
 
 #faculty-profile-overview {
-    align:center;
-    float:left;
+    align: center;
+    float: left;
     display: block;
     margin: 1rem auto;
     text-align: left;
@@ -1539,7 +1538,7 @@ blockquote, blockquote p {
 
 #faculty-profile-link-back-to-faculty a {
     font-size: 13px;
-    padding:12px;
+    padding: 12px;
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -1550,23 +1549,23 @@ blockquote, blockquote p {
 /* ====== START REGION: Footer ====== */
 
 #footer-container {
-    width:100%;
+    width: 100%;
     background-color: #292c2f;
-    margin:0%;
-    padding:0%;
-    position : absolute;
-    display:none;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    display: none;
 }
 
 .footer {
     background-color: #292c2f;
     padding: 4rem;
     margin-bottom: 0em;
-    font-size:13px;
+    font-size: 13px;
 }
 
 .footer .inline-list {
-    margin-left:0px;
+    margin-left: 0px;
 }
 
 .footer .inline-list a {
