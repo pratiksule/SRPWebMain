@@ -1,0 +1,4 @@
+<div id="announcements-home-item">
+    <p id="announcements-home-item-date"><b>$month $date, $year</b></p>
+    <p id="announcements-home-item-title">$title&nbsp<u><a href="announcements.html" >Details</a></u></p>
+</div>

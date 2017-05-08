@@ -387,7 +387,7 @@ nav.top-bar {
 
 /* ============ START REGION: Announcements ============ */
 
-.announcements {
+#announcements-home {
     float:left;
     width:30%;
     height:350px;
@@ -396,11 +396,45 @@ nav.top-bar {
     border-color:#737373;
 }
 
-.announcemnts-container{
+#announcements-home-container {
     margin:20px 20px 20px 20px;
 }
 
-.announcements-header {
+#announcements-home-item-main-alternate {
+    height:280px;
+    line-height:280px;
+}
+
+#announcements-home-item-main-alternate-placeholder {
+    margin: auto;
+    align:center;
+    height:280px;
+}
+
+#announcements-home-item-loading {
+    height:90px;
+    line-height:280px;
+    align:center;
+}
+
+#announcements-home-item-loading-container {
+    height:280px;
+    align:center;
+    width:90px;
+    margin:auto;
+}
+
+#announcements-home-item-none {
+    height:280px;
+    width:100%;
+    color: #21D2DC;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align:center;
+}
+
+#announcements-home-header {
     padding-left:8px;
     width:100%;
     height:29px;
@@ -412,12 +446,12 @@ nav.top-bar {
     line-height:29px;
     border-bottom-width:3px;
     border-bottom-style:solid;
-    border-bottom-color:rgb(33, 210, 220);;
+    border-bottom-color:rgb(33, 210, 220);
     margin-top:10px;
     margin-bottom:10px;
 }
 
-.announcements-footer {
+#announcements-home-footer {
     width:100%;
     height:30px;
     background-color: white;
@@ -433,10 +467,10 @@ nav.top-bar {
     border-color:#565656;
 }
 
-.announcements-item {
+#announcements-home-item {
     padding:5px;
     width:100%;
-    height:83px;
+    height: 83px;
     background-color: white;
     border-top-width:0px;
     border-top-style:solid;
@@ -450,32 +484,27 @@ nav.top-bar {
     color:#555555;
 }
 
-.announcements-item-title {
+#announcements-home-item-title {
     font-size:12px;
     padding-bottom:5px;
     color:#555555;
 }
 
-.announcements-item-date {
+#announcements-home-item-date {
     font-size:12px;
     padding-bottom:5px;
     color:rgb(33, 210, 220);;
 }
 
-.announcements-item a {
+#announcements-home-item a {
     font-size:12px;
     color:#21d2dc;
 }
 
-.announcements-item .button{
-    padding: 6px;
-    margin-top: 3px;
-}
-
-.announcements-footer .button{
+#announcements-home-footer .button{
     font-size:12px;
     padding: 6px;
-    margin-top: 3px;
+    margin-top: 9px;
 }
 
 /* ============ END REGION: Announcements ============ */
