@@ -58,7 +58,7 @@ var FacultyController = function() {
         // Get the template for faculty ...
         $.ajax({
             type: "GET",
-            url: "templates/faculty-display-template.txt",
+            url: "templates/faculty-template.txt",
             success: function(templateText) {
                 var temp='';
                 for (i = 0; i < facultyMemeberCount; i++) {

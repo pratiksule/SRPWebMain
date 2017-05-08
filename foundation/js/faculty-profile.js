@@ -68,7 +68,7 @@ var FacultyProfileController = function(id) {
         // Get the template for faculty ...
         $.ajax({
             type: "GET",
-            url: "templates/faculty-profile-display-template.txt",
+            url: "templates/faculty-profile-template.txt",
             success: function(templateText) {
                 // Have to use javascript's getElementsByTagName instead of .find(key).text() because text method only returns
                 // the nodes text value as opposed to inner html.
@@ -95,7 +95,7 @@ var FacultyProfileController = function(id) {
     * Attaches the faculty members result obtained from repository
     * to the faculty DOM.
     * @function
-    * @param facultyMembers
+    * @param facultyProfile
     */
     this.ShowFacultyProfile = function(facultyProfile) {
         // Displaying the faculty members
