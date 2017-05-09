@@ -830,6 +830,13 @@ blockquote, blockquote p {
     height: 120px;
 }
 
+#announcements-link-back-to-home a {
+    font-size: 13px;
+    padding: 12px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
 /* ====== Content for Announcements Main (End) (announcements.html) ====== */
 
 
