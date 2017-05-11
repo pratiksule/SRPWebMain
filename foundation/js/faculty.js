@@ -23,7 +23,7 @@ var FacultyController = function() {
     };
 
     /**
-    * Fetches faculty members from repository & displays them
+    * Fetches faculty members from repository & displays them.
     * @function
     * @param count
     */
@@ -78,7 +78,6 @@ var FacultyController = function() {
                 self.ShowFaculty(facultyMemebersResult);
             }
         });
-
     };
 
     /**

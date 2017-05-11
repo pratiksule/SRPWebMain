@@ -10,7 +10,7 @@
 var FacultyProfileController = function(id) {
 
     /**
-    * Represents unique profile identifier
+    * Represents unique profile identifier.
     * @var
     */
     this.id = id;
