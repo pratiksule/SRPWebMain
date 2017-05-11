@@ -179,13 +179,15 @@ var AnnouncementController = function(maxNumberOfAnnouncementsToShow) {
         // Displaying the announcements
         $('#announcements-home-item-main-alternate').fadeOut(100, function(){
             $('#announcements-home-item-main-alternate-placeholder').hide();
-            if(announcements == null || announcements == ''){
-                $('announcements-home-item-loading-container').hide();
+            if(announcements == null || announcements == '') {
+                $('#announcements-home-item-loading').hide();
+                $('#announcements-home-item-none').css('display','block');
+                $('#announcements-home-item-main-alternate-placeholder').show();
                 $('#announcements-home-item-main-alternate').show();
-                $('#announcements-home-item-none-container').css('display','block');
             }
             else{
                 $('announcements-home-item-loading-container').hide();
+                $('#announcements-home-footer').show();
                 $('#announcements-home-item-main-alternate').prepend(announcements).fadeIn(400);
             }
         });

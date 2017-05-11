@@ -400,37 +400,32 @@ nav.top-bar {
 }
 
 #announcements-home-item-main-alternate {
-    height: 280px;
-    line-height: 280px;
+    height: 249px;
+    line-height: 249px;
 }
 
 #announcements-home-item-main-alternate-placeholder {
     margin: auto;
     align: center;
-    height: 280px;
+    height: 249px;
+    text-align: center;
 }
 
 #announcements-home-item-loading {
-    height:90px;
-    line-height:280px;
-    align:center;
-}
-
-#announcements-home-item-loading-container {
-    height: 280px;
+    height: 90px;
+    line-height: 249px;
     align: center;
-    width: 90px;
-    margin: auto;
 }
 
 #announcements-home-item-none {
-    height: 280px;
+    height: 249px;
     width: 100%;
     color: #21D2DC;
     font-style: italic;
     font-weight: bold;
     font-size: 1rem;
     text-align: center;
+    align: center;
 }
 
 #announcements-home-header {
@@ -461,9 +456,7 @@ nav.top-bar {
     line-height: 40px;
     font-size: 12px;
     text-align: center;
-    border-width: 0px;
-    border-style: solid;
-    border-color: #565656;
+    display: none;
 }
 
 #announcements-home-item {
@@ -503,7 +496,7 @@ nav.top-bar {
 #announcements-home-footer .button{
     font-size: 12px;
     padding: 6px;
-    margin-top: 9px;
+    margin-top: 8px;
 }
 
 /* ============ END REGION: Announcements ============ */
