@@ -1,4 +1,4 @@
-<article class="event">
+<article id="$id" class="event">
     <div class="event-date">
         <p class="event-month">$month</p>
         <p class="event-day">$date</p>

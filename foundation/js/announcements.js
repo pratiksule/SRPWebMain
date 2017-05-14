@@ -88,9 +88,10 @@ var AnnouncementController = function(maxNumberOfAnnouncementsToShow) {
                     // the nodes text value as opposed to inner html.
                     var node = announcementsXML.getElementsByTagName("announcement")[i];
                     announcementsResult += temp.replace("$month", node.getElementsByTagName("month")[0].innerHTML)
-                                                 .replace("$date", node.getElementsByTagName("date")[0].innerHTML)
-                                                 .replace("$title", node.getElementsByTagName("title")[0].innerHTML)
-                                                 .replace("$description", node.getElementsByTagName("description")[0].innerHTML);
+                                               .replace("$date", node.getElementsByTagName("date")[0].innerHTML)
+                                               .replace("$title", node.getElementsByTagName("title")[0].innerHTML)
+                                               .replace("$description", node.getElementsByTagName("description")[0].innerHTML)
+                                               .replace("$id", i);
                 }
                 self.ShowAnnouncements(announcementsResult);
             },
@@ -134,9 +135,10 @@ var AnnouncementController = function(maxNumberOfAnnouncementsToShow) {
                         title = title.substring(0, 86).concat(" ...");
                     }
                     announcementsResult += temp.replace("$month",node.getElementsByTagName("month")[0].innerHTML)
-                                                 .replace("$date",node.getElementsByTagName("date")[0].innerHTML)
-                                                 .replace("$year",node.getElementsByTagName("year")[0].innerHTML)
-                                                 .replace("$title", title);
+                                               .replace("$date",node.getElementsByTagName("date")[0].innerHTML)
+                                               .replace("$year",node.getElementsByTagName("year")[0].innerHTML)
+                                               .replace("$title", title)
+                                               .replace("$id", i);
                 }
                 self.ShowAnnouncementsHome(announcementsResult);
             },
@@ -164,7 +166,14 @@ var AnnouncementController = function(maxNumberOfAnnouncementsToShow) {
                 $('#announcements-none').css('display','block');
             }
             else{
-                $('#announcements-main-alternate').append(announcements).fadeIn(400);
+                $('#announcements-main-alternate').append(announcements).fadeIn(400, function(){
+                    var scrollToID = parent.document.URL.substring(parent.document.URL.indexOf('=') + 1, parent.document.URL.length);
+                    if(!isNaN(scrollToID)) {
+                        $('html, body').animate({
+                            scrollTop: $("#"+scrollToID).offset().top
+                        },800);
+                    }
+                });
             }
         });
     };
