@@ -88,7 +88,6 @@ var FacultyProfileController = function(id) {
                 self.ShowFacultyProfile(facultyMemebersResult);
             }
         });
-
     };
 
     /**
